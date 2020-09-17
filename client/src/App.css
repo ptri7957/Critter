@@ -1,0 +1,108 @@
+body{
+  background-color: #4b4cb4;
+  font-family: 'Open Sans', sans-serif;
+  color: white
+}
+
+.navbar-brand a, .navbar-brand a:hover{
+  color: black;
+  text-decoration: none;
+}
+
+.mt-100{
+  margin-top: 100px;
+}
+
+.mb-100{
+  margin-bottom: 100px;
+}
+
+.card{
+  border: none;
+  color: black;
+}
+
+.profile-card{
+  padding: 0;
+}
+
+.profile-header{
+  height: 100px;
+  background-color: #B4B34B;
+  border-radius: 2px 2px 0 0;
+}
+
+.profile-content{
+  padding: 20px;
+  position: relative;
+  bottom: 60px;
+}
+
+.profile-container{
+  margin-bottom: 50px;
+}
+
+.post-summary-card{
+  border-bottom: 1px solid lightgray;
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 70px;
+}
+
+.post-summary-card:last-child{
+  border: none;
+}
+
+.navbar-nav li{
+  margin-left: 10px;
+}
+
+.profile-pic{
+  text-align: center;
+  font-size: 2em;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.profile-pic-mini{
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  font-size: 1em;
+  margin: 0 auto;
+}
+
+.like-count{
+  padding: 5px;
+}
+
+.like{
+  float: left;
+}
+
+.dislike{
+  color: skyblue;
+}
+
+.num-likes{
+  padding: 10px;
+}
+
+.user-btns{
+  float: right;
+}
+
+.post-btns{
+  border-radius: 10px;
+}
+
+.username{
+  font-weight: bolder;
+}
+

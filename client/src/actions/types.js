@@ -1,0 +1,37 @@
+export const LOGIN_USER = "LOGIN_USER";
+export const LOGOUT = "LOGOUT";
+export const REGISTER_USER = "REGISTER_USER";
+export const LOAD_USER = "LOAD_USER";
+export const AUTH_ERROR = "AUTH_ERROR";
+
+export const CREATE_POST = "CREATE_POST";
+export const CREATE_POST_FAILED = "CREATE_POST_FAILED";
+
+export const CLEAR_PROFILE = "CLEAR_PROFILE";
+export const CLEAR_PSOTS = "CLEAR_POSTS";
+
+export const CREATE_PROFILE = "CREATE_PROFILE";
+export const CREATE_PROFILE_ERROR = "CREATE_PROFILE_ERROR";
+
+export const GET_USER_PROFILE = "GET_USER_PROFILE";
+export const GET_USER_PROFILE_ERROR = "GET_USER_PROFILE_ERROR";
+export const GET_PROFILE_BY_ID = "GET_PROFILE_BY_ID";
+export const GET_ALL_PROFILES = "GET_ALL_PROFILES";
+
+export const GET_MY_POSTS = "GET_MY_POSTS";
+export const GET_POSTS = "GET_POSTS";
+export const POST_ERROR = "POST_ERROR";
+
+export const DELETE_POST = "DELETE_POST";
+export const DELETE_ERROR = "DELETE_ERROR";
+
+export const GET_POST_BY_ID = "GET_POST_BY_ID";
+export const GET_ALL_POST_BY_USER = "GET_ALL_POST_BY_USER";
+
+export const LIKE_POST = "LIKE_POST";
+export const DISLIKE_POST = "DISLIKE_POST";
+export const LIKE_POST_ERROR = "LIKE_POST_ERROR";
+
+export const POST_COMMENT = "POST_COMMENT";
+export const DELETE_COMMENT = "DELETE_COMMENT";
+export const COMMENT_ERROR = "COMMENT_ERROR";
