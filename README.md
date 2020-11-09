@@ -24,3 +24,18 @@ A simple blog application written with MERN
   <li>Remove Posts</li>
   <li>Register user and authentication</li>
 </ul>
+
+# Install
+1. Install dependencies
+```
+npm i && cd client && npm i && cd ..
+```
+2. Run the project
+```
+npm run dev
+```
+
+3. Navigate in your browser with the following
+```
+http://localhost:3000
+```
